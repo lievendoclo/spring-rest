@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @RestController
+@RequestMapping("/")
 class SpringRestSeedController {
 
     @RequestMapping(method = GET, path = "hello/{name}")
