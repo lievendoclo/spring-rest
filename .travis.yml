@@ -24,7 +24,7 @@ notifications:
     on_error: always
     on_cancel: always
     urls:
-      - https://webhook.atomist.com/atomist/travis/teams/T095SFFBK
+      - https://webhook-staging.atomist.services/atomist/travis/teams/T095SFFBK
 cache:
   directories:
     - "$HOME/.m2"
